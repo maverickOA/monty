@@ -88,7 +88,7 @@ void _orotr(stack_t **head, unsigned int line_number);
 char *_itoa(int number, int *exit_code);
 char *_strrev(char *str, int *exit_code);
 int _strlen(char *str);
-void _closefile(FILE *file);
+void close_file(FILE *file);
 operation_t build_operation(instruction_t, const int operand,
 		int *exit_code);
 int _stackoperation(operation_t instruction,

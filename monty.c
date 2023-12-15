@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		if (file != NULL)
 		{
 			_processfile(file, &exit_code);
-			_closefile(file);
+			close_file(file);
 		}
 	}
 	return (exit_code);
